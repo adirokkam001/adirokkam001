@@ -6,7 +6,7 @@
 
 **AWS • Linux • Git • Python • Docker • CI/CD • Terraform • Kubernetes**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-adirokkam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adirokkam/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-adirokkam-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adirokkam/)
 [![GitHub](https://img.shields.io/badge/GitHub-adirokkam001-181717?style=for-the-badge\&logo=github)](https://github.com/adirokkam001)
 
 </div>
