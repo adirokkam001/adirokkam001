@@ -101,106 +101,223 @@ My approach is simple:
 
 ---
 
-# 🚀 AWS Projects
+# ☁️ AWS PROJECTS & HANDS-ON LABS
 
-## 💻 Amazon EC2
+<div align="center">
 
-Hands-on practice with:
+### 🚀 Building Cloud Skills Through Real AWS Practice
 
-* Launching EC2 instances
-* Connecting to Linux servers
-* Security Groups
-* Key pairs
-* Instance management
-* Installing packages
-* Running applications
+**Compute • Storage • Networking • Monitoring • Messaging • APIs**
+
+</div>
 
 ---
 
-## 🗄️ Amazon S3
+## 💻 EC2 — Cloud Compute
 
-Hands-on practice with:
+| 🔧 Area         | 📚 Hands-On Practice                         |
+| --------------- | -------------------------------------------- |
+| 🚀 Instances    | Launching and managing EC2 instances         |
+| 🐧 Linux        | Connecting to Linux servers                  |
+| 🔐 Security     | Security Groups and Key Pairs                |
+| ⚙️ Management   | Starting, stopping and configuring instances |
+| 📦 Packages     | Installing and configuring software          |
+| 🌐 Applications | Running applications on cloud servers        |
 
-* Creating S3 buckets
-* Uploading objects
-* Downloading objects
-* Bucket permissions
-* Object permissions
-* Static website hosting
-* Bucket management
-
----
-
-## 💾 Amazon EBS
-
-Learning:
-
-* EBS volumes
-* Volume types
-* Attaching volumes to EC2
-* Mounting volumes
-* Formatting volumes
-* Persistent block storage
+**What I'm learning:**
+`EC2` → `Linux Server` → `Security Group` → `Application`
 
 ---
 
-## ⚖️ Elastic Load Balancer
+## 🗄️ S3 — Cloud Storage
 
-Learning:
+| 🔧 Area        | 📚 Hands-On Practice                |
+| -------------- | ----------------------------------- |
+| 🪣 Buckets     | Creating and configuring S3 buckets |
+| 📤 Objects     | Uploading objects                   |
+| 📥 Objects     | Downloading objects                 |
+| 🔐 Permissions | Bucket and object permissions       |
+| 🌐 Hosting     | Static website hosting              |
+| ⚙️ Management  | Managing stored objects and buckets |
 
-* Load balancing
-* Target Groups
-* Listeners
-* Health checks
-* Application Load Balancer
-* Distributing traffic across EC2 instances
-
----
-
-## 📊 Amazon CloudWatch
-
-Learning:
-
-* Metrics
-* Logs
-* Log Groups
-* Log Streams
-* Alarms
-* Dashboards
-* EC2 monitoring
-* Application monitoring
+**What I'm learning:**
+`Bucket` → `Object` → `Permission` → `Storage` → `Website`
 
 ---
 
-## 📨 Amazon SNS / SQS / SES
+## 💾 EBS — Block Storage
 
-Learning:
+| 🔧 Area        | 📚 Hands-On Practice             |
+| -------------- | -------------------------------- |
+| 💽 Volumes     | Creating EBS volumes             |
+| 📦 Types       | Understanding EBS volume types   |
+| 🔗 Attachment  | Attaching volumes to EC2         |
+| 📁 Mounting    | Mounting volumes on Linux        |
+| 🛠️ Formatting | Formatting block storage         |
+| 💾 Persistence | Understanding persistent storage |
 
-* Amazon SNS
-* Topics
-* Subscriptions
-* Notifications
-* Amazon SQS
-* Queues
-* Message processing
-* Amazon SES
-* Email services
+**What I'm learning:**
+`EBS Volume` → `Attach` → `Format` → `Mount` → `Persistent Storage`
 
 ---
 
-## 🚪 Amazon API Gateway
+## ⚖️ Elastic Load Balancer — Traffic Distribution
 
-Learning:
+| 🔧 Area           | 📚 Hands-On Practice                    |
+| ----------------- | --------------------------------------- |
+| ⚖️ Load Balancing | Distributing incoming traffic           |
+| 🎯 Target Groups  | Registering EC2 instances               |
+| 👂 Listeners      | Configuring listener rules              |
+| ❤️ Health Checks  | Monitoring instance health              |
+| 🌐 ALB            | Understanding Application Load Balancer |
+| 🚀 Availability   | Improving application availability      |
 
-* REST APIs
-* HTTP APIs
-* Routes
-* Methods
-* Integrations
-* CORS
-* Stages
-* Authentication basics
-* Lambda integration
+**Architecture:**
+
+```text
+                    🌐 USERS
+                       │
+                       ▼
+                ⚖️ LOAD BALANCER
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+           💻 EC2-1          💻 EC2-2
+              │                 │
+              └────────┬────────┘
+                       ▼
+                  📦 APPLICATION
+```
+
+---
+
+## 📊 CloudWatch — Monitoring & Observability
+
+| 🔧 Area         | 📚 Hands-On Practice                   |
+| --------------- | -------------------------------------- |
+| 📈 Metrics      | Monitoring AWS resource metrics        |
+| 📝 Logs         | Collecting application and system logs |
+| 📁 Log Groups   | Organizing logs                        |
+| 📄 Log Streams  | Managing individual log streams        |
+| 🚨 Alarms       | Creating monitoring alarms             |
+| 📊 Dashboards   | Building monitoring dashboards         |
+| 💻 EC2          | Monitoring EC2 resources               |
+| 🌐 Applications | Monitoring application activity        |
+
+**Monitoring Flow:**
+
+```text
+💻 AWS RESOURCE
+       │
+       ▼
+📊 CLOUDWATCH
+       │
+ ┌─────┼─────┐
+ ▼     ▼     ▼
+📈    📝    🚨
+Metrics Logs Alarms
+       │
+       ▼
+    📊 Dashboard
+```
+
+---
+
+## 📨 SNS + SQS + SES — Messaging Services
+
+| Service              | 🎯 What I'm Learning                    |
+| -------------------- | --------------------------------------- |
+| 📨 **SNS**           | Topics, subscriptions and notifications |
+| 📬 **SQS**           | Queues and message processing           |
+| 📧 **SES**           | Sending and managing email              |
+| 🔔 **Notifications** | Event-driven notifications              |
+| 🔄 **Messaging**     | Communication between applications      |
+
+**Messaging Architecture:**
+
+```text
+                  ☁️ AWS APPLICATION
+                         │
+                         ▼
+                      📨 SNS
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
+           📬 SQS                 📧 SES
+              │                     │
+              ▼                     ▼
+       Message Queue           Email Service
+```
+
+---
+
+## 🚪 API Gateway — API Management
+
+| 🔧 Area           | 📚 Hands-On Practice                |
+| ----------------- | ----------------------------------- |
+| 🌐 REST API       | Creating REST APIs                  |
+| ⚡ HTTP API        | Working with HTTP APIs              |
+| 🛣️ Routes        | Configuring API routes              |
+| 🔧 Methods        | GET, POST, PUT and DELETE           |
+| 🔗 Integration    | Connecting APIs to backend services |
+| 🌍 CORS           | Configuring cross-origin requests   |
+| 🚦 Stages         | Managing API deployment stages      |
+| 🔐 Authentication | Understanding API authentication    |
+| ⚡ Lambda          | Integrating API Gateway with Lambda |
+
+**API Architecture:**
+
+```text
+             👤 CLIENT
+                 │
+                 ▼
+          🚪 API GATEWAY
+                 │
+          ┌──────┴──────┐
+          ▼             ▼
+       ⚡ Lambda      💻 Backend
+          │             │
+          └──────┬──────┘
+                 ▼
+              ☁️ AWS
+```
+
+---
+
+# 🏗️ MY AWS LEARNING STACK
+
+```text
+                    ☁️ AWS CLOUD
+                         │
+       ┌─────────────────┼─────────────────┐
+       │                 │                 │
+       ▼                 ▼                 ▼
+   💻 COMPUTE         🗄️ STORAGE       🌐 NETWORK
+      EC2              S3 / EBS            VPC
+       │                 │                 │
+       └─────────────────┼─────────────────┘
+                         │
+                         ▼
+                  ⚖️ LOAD BALANCER
+                         │
+                         ▼
+                  📊 CLOUDWATCH
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
+           📨 SNS/SQS             🚪 API
+                                 GATEWAY
+```
+
+---
+
+<div align="center">
+
+### ☁️ AWS IS NOT JUST THEORY — I'M BUILDING WITH IT.
+
+**Learn → Practice → Build → Deploy → Monitor**
+
+</div>
 
 ---
 
