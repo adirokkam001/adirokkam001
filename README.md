@@ -411,53 +411,6 @@ My goal is to build strong practical skills in **Cloud Computing and DevOps** by
 
 ---
 
-# 📊 GitHub Activity
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adirokkam001\&show_icons=true\&theme=tokyonight\&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adirokkam001\&layout=compact\&theme=tokyonight\&hide_border=true)
-
-</div>
-
----
-
-# 🐍 Contribution Activity
-
-<div align="center">
-
-![GitHub Contribution Snake](https://raw.githubusercontent.com/adirokkam001/adirokkam001/output/github-contribution-grid-snake.svg)
-
-</div>
-
----
-
-# 📈 GitHub Contribution Graph
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=adirokkam001\&theme=tokyonight\&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-# 🔗 Connect With Me
-
-<div align="center">
-
-### 🌐 Portfolio
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-00c7ff?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://adirokkam001.github.io/)
-
-### 💻 GitHub
-
-[![GitHub](https://img.shields.io/badge/GitHub-adirokkam001-181717?style=for-the-badge\&logo=github)](https://github.com/adirokkam001)
-
-### 💼 LinkedIn
-
-**Add your LinkedIn profile link here**
 
 </div>
 
