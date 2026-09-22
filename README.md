@@ -4,7 +4,7 @@
 
 ### 🚀 Cloud & DevOps Learner
 
-**AWS • Linux • Git • Python • Docker • Jenkins • CI/CD • Terraform • Kubernetes**
+**AWS • Linux • Networking • Git/GitHub • Python • Docker • Jenkins • CI/CD • Terraform • Kubernetes • Ansible • Bash/Shell Scripting •**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-adirokkam-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adirokkam/)
 [![GitHub](https://img.shields.io/badge/GitHub-adirokkam001-181717?style=for-the-badge\&logo=github)](https://github.com/adirokkam001)
