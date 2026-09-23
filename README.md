@@ -6,8 +6,20 @@
 
 **AWS • Linux • Networking • Git/GitHub • Python • Docker • Jenkins • CI/CD • Terraform • Kubernetes • Ansible • Bash/Shell Scripting**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-adirokkam-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adirokkam/)
-[![GitHub](https://img.shields.io/badge/GitHub-adirokkam001-181717?style=for-the-badge\&logo=github)](https://github.com/adirokkam001)
+<p>
+  <a href="https://adi-portfolio-adi-ab77.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐%20View%20My%20Portfolio-00D9FF?style=for-the-badge&logoColor=white" alt="View My Portfolio"/>
+  </a>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/in/adirokkam/">
+    <img src="https://img.shields.io/badge/LinkedIn-adirokkam-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/adirokkam001">
+    <img src="https://img.shields.io/badge/GitHub-adirokkam001-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 </div>
 
@@ -25,3 +37,59 @@ My approach is simple:
 
 ---
 
+## 🌐 My Portfolio
+
+<div align="center">
+
+### 🚀 Explore My Cloud & DevOps Portfolio
+
+<a href="https://adi-portfolio-adi-ab77.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐%20VISIT%20MY%20PORTFOLIO-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit My Portfolio"/>
+</a>
+
+<br><br>
+
+**Cloud infrastructure • DevOps • AWS • CI/CD • Terraform • Docker • Kubernetes**
+
+</div>
+
+---
+
+## ☁️ Cloud & DevOps Focus
+
+- ☁️ AWS Cloud
+- 🐧 Linux
+- 🌐 Networking
+- 🔐 IAM & Security
+- 🐳 Docker
+- 🔄 CI/CD
+- ⚙️ Jenkins
+- 🏗️ Terraform
+- ☸️ Kubernetes
+- 🤖 Ansible
+- 🐍 Python
+- 💻 Bash / Shell Scripting
+- 🔧 Git & GitHub
+
+---
+
+## 🛠️ Currently Learning
+
+```text
+AWS
+ ↓
+Linux
+ ↓
+Git & GitHub
+ ↓
+Docker
+ ↓
+Jenkins / CI/CD
+ ↓
+Terraform
+ ↓
+Kubernetes
+ ↓
+Ansible
+ ↓
+Cloud & DevOps Engineering
