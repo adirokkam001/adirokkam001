@@ -6,11 +6,7 @@
 
 **AWS • Linux • Networking • Git/GitHub • Python • Docker • Jenkins • CI/CD • Terraform • Kubernetes • Ansible • Bash/Shell Scripting**
 
-<p>
-  <a href="https://adi-portfolio-adi-ab77.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20View%20My%20Portfolio-00D9FF?style=for-the-badge&logoColor=white" alt="View My Portfolio"/>
-  </a>
-</p>
+
 
 <p>
   <a href="https://www.linkedin.com/in/adirokkam/">
@@ -53,43 +49,3 @@ My approach is simple:
 
 </div>
 
----
-
-## ☁️ Cloud & DevOps Focus
-
-- ☁️ AWS Cloud
-- 🐧 Linux
-- 🌐 Networking
-- 🔐 IAM & Security
-- 🐳 Docker
-- 🔄 CI/CD
-- ⚙️ Jenkins
-- 🏗️ Terraform
-- ☸️ Kubernetes
-- 🤖 Ansible
-- 🐍 Python
-- 💻 Bash / Shell Scripting
-- 🔧 Git & GitHub
-
----
-
-## 🛠️ Currently Learning
-
-```text
-AWS
- ↓
-Linux
- ↓
-Git & GitHub
- ↓
-Docker
- ↓
-Jenkins / CI/CD
- ↓
-Terraform
- ↓
-Kubernetes
- ↓
-Ansible
- ↓
-Cloud & DevOps Engineering
